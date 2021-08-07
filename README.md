@@ -21,11 +21,9 @@ Create a file named `MongoDB.json` in the root folder following the template bel
 
 ```json
 {
-  "URI": "mongodb+srv://<user>:<password>@e-commerce.zosra.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+  "URI": "<URI for your database>"
 }
 ```
-
-Replace `<user>` and `<password>` with your credentials to access the database. Replace `myFirstDatabase` with the name of the database that connections will use by default. Ensure any option params are [URL encoded](https://www.urlencoder.org/).
 
 _This is used for security purpose, so you can upload your code to a public git repository without exposing access to your database_
 
