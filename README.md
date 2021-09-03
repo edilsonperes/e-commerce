@@ -7,6 +7,6 @@
 
 ## Configuring environment variables
 
-On the root folder, create a `.env` file just like the file `.env.example`. This file will store environment variables like the server port and the mongo connection URI.
+On the root folder, create a `.env` file just like the file `.env.example`. This file will store environment variables like the server port and the mongodb connection URI.
 
 *Under construction*
