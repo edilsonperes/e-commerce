@@ -5,26 +5,8 @@
 - Make sure you have `Node.js` and `npm` installed.
 - Install all dependencies by running `npm install` from the root folder.
 
-## Configuring the server
+## Configuring environment variables
 
-### Listen port
+On the root folder, create a `.env` file just like the file `.env.example`. This file will store environment variables like the server port and the mongo connection URI.
 
-Configure the server por you want your server to listen to on `server.js` file, simply changing the value on `port` variable. The default port is 3000.
-
-```js
-const port = 3000
-```
-
-### Connection to MongoDB
-
-Create a file named `MongoDB.json` in the root folder following the template below to store the URI for your database.
-
-```json
-{
-  "URI": "<URI for your database>"
-}
-```
-
-_This is used for security purpose, so you can upload your code to a public git repository without exposing access to your database_
-
-Under construction
+*Under construction*

@@ -24,4 +24,5 @@ Thumbs.db
 #########################
 node_modules/
 public/
-mongoDB.json
+credentials.txt
+.env
